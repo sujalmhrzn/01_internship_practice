@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(235, 199, 232)
+    /*text-align: center; */
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background: #dfa572;
+  height: 120px;
+  justify-content: right;
+  gap: 90px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 7px;
+}
+
+.Logo {
+  justify-content: left;
+  display: flex;
+}
+
+.about {
+  background-color: blueviolet;
+  width: 500px;
+  height: 700px;
+  justify-content: left;
+  align-items: center;
+}
+
+/*.submit-btn {
+  margin-top: 7px;
+  background-color: green;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-right: 150px;
+  font-family: 'Times New Roman', Times, serif;
+
+  transition: background-color 1s, color 1s;
+}
+
+.submit-btn:hover {
+  background-color: aliceblue;
+  color: rebeccapurple
+}
+*/
+.subscribe-btn {
+  background-color: tomato;
+  color: white;
+  margin-top: 40px;
+  border: red;
+  height: 36px;
+  width: 105px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-right: 150px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.subscribe-btn:hover {
+  box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.5);
+
+}
