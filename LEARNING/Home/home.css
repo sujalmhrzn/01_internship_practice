@@ -4,66 +4,99 @@ body {
 
 }
 
-nav ul {
-  list-style: none;
+.navbar {
   display: flex;
-  background: #dfa572;
-  height: 120px;
-  justify-content: right;
-  gap: 90px;
-  align-items: center;
+  background-color: #dfa572;
+  height: 125px;
+  /* gap: 90px; */
+  align-items: left;
   padding: 0;
   margin: 0;
   border-radius: 7px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 100%;
+}
+/* .navbar p{
+  display: ;
+} */
+.logo {
+  min-height: 30px;
+  margin-right:  1000px;
+
+}
+.navbar-item{
+  list-style: none;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  gap: 90px;
+  align-items: center;  
+  margin-left: 110px;
+}
+.carousel-inner{
+  width: 100%;
 }
 
-.Logo {
-  justify-content: left;
-  display: flex;
-}
 
 .about {
+  display: flex;
+  flex-direction: column;
   background-color: blueviolet;
-  width: 500px;
-  height: 700px;
-  justify-content: left;
-  align-items: center;
+  width: auto;
+
 }
 
-/*.submit-btn {
-  margin-top: 7px;
-  background-color: green;
+.about .about_header {
+  margin: 15px auto;
+}
+
+.about .about_body {
+  display: flex;
+  padding: 10px;
+}
+.about p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
-  border: none;
-  height: 36px;
-  width: 105px;
-  border-radius: 7px;
-  cursor: pointer;
-  margin-right: 150px;
-  font-family: 'Times New Roman', Times, serif;
-
-  transition: background-color 1s, color 1s;
+  font-size: 35px;
+  font-style: italic; 
+  justify-content: center;
+  font-display: left;
+ 
 }
-
-.submit-btn:hover {
-  background-color: aliceblue;
-  color: rebeccapurple
-}
-*/
-.subscribe-btn {
+.services-btn {
   background-color: tomato;
   color: white;
   margin-top: 40px;
   border: red;
   height: 36px;
   width: 105px;
-  border-radius: 7px;
+  border-radius: 7px;   
   cursor: pointer;
   margin-right: 150px;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.subscribe-btn:hover {
+.services-btn:hover {
   box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.5);
 
+}
+
+.footer {
+  background-color: #dfa572;
+  color:black;
+  list-style: disc;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 7px;
+
+}
+
+.footer p {
+  display: flex;
+  margin-left: 650px;
+  margin-right: 725px;
 }
