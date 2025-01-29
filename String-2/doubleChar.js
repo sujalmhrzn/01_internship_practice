@@ -1,3 +1,4 @@
+//Given a string, return a string where for every char in the original, there are two chars.
 function doubleChar(str) {
   let result = '';
   for (let char of str) {
