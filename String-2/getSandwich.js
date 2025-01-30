@@ -7,3 +7,5 @@ function getSandwich(str) {
   }
   return "";
 }
+//console.log(getSandwich("breadhero"))
+console.log(getSandwich('breadandbread'));
