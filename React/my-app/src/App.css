@@ -1,0 +1,12 @@
+.App{
+  background-color: aquamarine;
+}
+.nav-link{
+  list-style: none;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  gap: 90px;
+  align-items: center;  
+  margin-left: 110px;
+}
