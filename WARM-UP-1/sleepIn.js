@@ -4,7 +4,7 @@ function sleepIn(weekday, vacation) {
 }
 
 // Call the function with arguments
-console.log(sleepIn(false, true)); // Output: true (Can sleep in)
-console.log(sleepIn(true, false)); // Output: false (Cannot sleep in)
-console.log(sleepIn(false, false)); // Output: true (Can sleep in)
-console.log(sleepIn(true, true));// Output: true(sure can sleep)  
+console.log(sleepIn(false, true)); 
+console.log(sleepIn(true, false)); 
+console.log(sleepIn(false, false)); 
+console.log(sleepIn(true, true));//  
